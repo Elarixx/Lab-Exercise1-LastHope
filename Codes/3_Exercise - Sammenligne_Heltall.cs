@@ -1,7 +1,6 @@
 using System; // Brukes for Console
 
-namespace LastHope
-{
+namespace LastHope;
     internal static class Exercise3
     {
         // Kjør øvelse 3: sammenligne to heltall
@@ -34,4 +33,3 @@ namespace LastHope
             }
         }
     }
-}

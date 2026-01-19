@@ -1,7 +1,7 @@
 ﻿using System; // Brukes for Console og double.NaN
 
-namespace LastHope
-{
+namespace LastHope;
+
     internal class One
     {
         // Kjør øvelse 1: variabler og aritmetikk
@@ -44,4 +44,3 @@ namespace LastHope
                 Console.WriteLine("• Kvotienten(/resultatet av divisjon) av prisen for pokemonfigur og lego er " + division + " kr\n");
         }
     }
-}

@@ -3,7 +3,7 @@ using System;
 using System.Text;
 
 namespace Codes
-{
+{ 
     internal class Program
     {
         // Program entry point: kaller hver øvelse for å demonstrere temaene én etter én.

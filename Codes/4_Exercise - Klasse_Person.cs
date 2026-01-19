@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace LastHope
-{
+namespace LastHope;
+
     // Kjør øvelse 4: opprett en Person og skriv ut data
     internal static class Exercise4
     {
@@ -38,4 +38,3 @@ namespace LastHope
             Console.WriteLine();
         }
     }
-}
