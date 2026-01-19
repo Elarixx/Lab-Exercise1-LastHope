@@ -1,7 +1,8 @@
-﻿using System;
+﻿using LastHope;
+using System;
 using System.Text;
 
-namespace LastHope
+namespace Codes
 {
     internal class Program
     {
