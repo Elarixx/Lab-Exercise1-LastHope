@@ -12,7 +12,7 @@ namespace LastHope;
             {
                 ID = 77,
                 Name = "Saylor Sinclair",
-                BirthDate = new DateTime(2004, 07, 07),
+                BirthDate = new DateOnly(2174, 07, 07),
                 Address = "Alpha sector 7, 7777 Pandora Moon"
             };
 
@@ -25,16 +25,22 @@ namespace LastHope;
     {
         public int ID { get; set; }                    // Unik identifikator
         public string Name { get; set; } = string.Empty; // Personens navn
-        public DateTime BirthDate { get; set; }        // Fødselsdato
+        public DateOnly BirthDate { get; set; }        // Fødselsdato
         public string Address { get; set; } = string.Empty; // Adresse
 
         // Skriver personinformasjon til konsollen
         public void PrintInfo()
         {
-            Console.WriteLine($"ID: {ID}");
+           /* Console.WriteLine($"ID: {ID}");
             Console.WriteLine($"Navn: {Name}");
-            Console.WriteLine($"Fødselsdato: {BirthDate:yyyy-MM-dd}");
+            Console.WriteLine($"Fødselsdato: {BirthDate:dd.MM.yyyy}");
             Console.WriteLine($"Adresse: {Address}");
-            Console.WriteLine();
+            Console.WriteLine(); */
+
+            Console.WriteLine(
+                $"ID: {ID}\n" +
+                $"Name: {Name}\n" +
+                $"Birthday: {BirthDate:dd.MM.yyyy}\n" +
+                $"Address: {Address}\n");
         }
     }

@@ -7,29 +7,24 @@ namespace LastHope;
         public static void Run()
         {
             // Deklarer to heltallsvariabler
-            int tall_1 = 77;
-            int tall_2 = 24;
+            int tall1 = 77;
+            int tall2 = 24;
 
             //-----------------------------------------------------------\\
 
             // Bruker if-else betingelser for å sammenligne tallene og skrive ut riktig melding
 
-            // Hvis tall_1 er større enn tall_2, skriv ut at tall_1 er større.
-            if (tall_1 > tall_2) 
-            {
-                Console.WriteLine($"{tall_1} er større enn {tall_2}");
-            }
-
-            // Hvis tall_1 er mindre enn tall_2, skriv ut at tall_1 er mindre.
-            else if (tall_1 < tall_2)
-            {
-                Console.WriteLine($"{tall_1} er mindre enn {tall_2}");
-            }
-
-            // Hvis ingen av "if" eller "else if", tallen er like.
-            else
-            {
-                Console.WriteLine($"{tall_1} og {tall_2} er like");
-            }
+            if (tall1 > tall2)    // Hvis tall_1 er større enn tall_2, skriv ut at tall_1 er større.
+                {
+                  Console.WriteLine($"{tall1} er større enn {tall2}");
+                }            
+            else if (tall1 < tall2)   // Hvis tall_1 er mindre enn tall_2, skriv ut at tall_1 er mindre.
+                {
+                  Console.WriteLine($"{tall1} er mindre enn {tall2}");
+                }
+            else  // Hvis ingen av "if" eller "else if", tallen er like.
+                {
+                  Console.WriteLine($"{tall1} og {tall2} er like");
+                }
         }
     }

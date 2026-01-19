@@ -18,11 +18,13 @@ internal static class Exercise2
             // Dag 1–5 (mandag–fredag) → arbeidsdag
             Console.WriteLine("Arbeidsdag");
         }
+
         else if (dag == 6 || dag == 7) // '||' betyr "eller": minst én må være sann.
         {
             // Dag 6 eller 7 (lørdag/søndag) → helg
             Console.WriteLine("Helg");
         }
+
         else
         {
             // Alt annet enn 1–7 → ugyldig dag
