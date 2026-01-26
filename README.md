@@ -10,6 +10,7 @@ Det er første lab øvelse for vårsemesteret 2026, og dekker grunnleggende konsept
 * **Øvelse 4:** Klasse: Person
 
 ## Struktur
+<!--
 * Codes/Program_all.cs 
   1. Kjører alle øvelsene.
 * Codes/Styles.cs 
@@ -21,7 +22,7 @@ Det er første lab øvelse for vårsemesteret 2026, og dekker grunnleggende konsept
 * Codes/Øvelse_3_Sammenligne_to_heltall.cs 
   1. Innhold for Øvelse 3
 * Codes/Øvelse_4_Klasse_Person.cs 
-  1. Innhold for Øvelse 4
+  1. Innhold for Øvelse 4 -->
 
 
 ## MERK!:

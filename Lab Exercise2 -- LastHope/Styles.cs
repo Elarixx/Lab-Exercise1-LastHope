@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LastHope // Samme namespace som Program_all.cs, så Program kan kalle Styles uten ekstra 'using'
+namespace LastHope 
 {
     internal static class Styles
     {

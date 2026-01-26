@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace LastHope // Samme namespace som Styles.cs, så Program kan kalle Styles uten ekstra 'using'
+namespace LastHope 
 {
     internal class Program
     {
