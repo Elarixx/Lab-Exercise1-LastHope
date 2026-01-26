@@ -6,25 +6,35 @@ namespace LastHope;
         // Kjør øvelse 3: sammenligne to heltall
         public static void Run()
         {
+
+
+            // ==========================================================
             // Deklarer to heltallsvariabler
-            int tall1 = 77;
-            int tall2 = 24;
+            // ==========================================================
 
-            //-----------------------------------------------------------\\
+                /* Velger å bruke tall_1 og tall_2 istedenfor tall1 og tall2 for egen lesbarhet.*/
 
-            // Bruker if-else betingelser for å sammenligne tallene og skrive ut riktig melding
+                    int tall_1 = 77;
+                    int tall_2 = 24;
 
-            if (tall1 > tall2)    // Hvis tall_1 er større enn tall_2, skriv ut at tall_1 er større.
-                {
-                  Console.WriteLine($"{tall1} er større enn {tall2}");
-                }            
-            else if (tall1 < tall2)   // Hvis tall_1 er mindre enn tall_2, skriv ut at tall_1 er mindre.
-                {
-                  Console.WriteLine($"{tall1} er mindre enn {tall2}");
-                }
-            else  // Hvis ingen av "if" eller "else if", tallen er like.
-                {
-                  Console.WriteLine($"{tall1} og {tall2} er like");
-                }
+
+            // ==========================================================
+            // Sammenligne tallene og skriv ut resultatet
+            // ==========================================================
+        
+                  /* Bruker if-else betingelser for å sammenligne tallene og skrive ut riktig melding */
+
+                    if (tall_1 > tall_2)    // Hvis tall_1 er større enn tall_2, skriv ut at tall_1 er større.
+                        {
+                          Console.WriteLine($"{tall_1} er større enn {tall_2}");
+                        }            
+                    else if (tall_1 < tall_2)   // Hvis tall_1 er mindre enn tall_2, skriv ut at tall_1 er mindre.
+                        {
+                          Console.WriteLine($"{tall_1} er mindre enn {tall_2}");
+                        }
+                    else  // Hvis ingen av "if" eller "else if", tallen er like.
+                        {
+                          Console.WriteLine($"{tall_1} og {tall_2} er like");
+                        }
         }
     }

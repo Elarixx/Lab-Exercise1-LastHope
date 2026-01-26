@@ -7,10 +7,14 @@ internal static class Exercise2
     // Kjør øvelse 2: sjekk om en dag (1-7) er arbeidsdag, helg eller ugyldig
     public static void Run()
     {
-        // Deklarerer en heltallsvariabel som representerer en dag i uken (1-7).
-        int dag = 2; // Endre verdien for å teste andre dager.
 
-    //-----------------------------------------------------------\\
+        // ==========================================================
+        // Deklarerer en heltallsvariabel som representerer en dag i uken (1-7).
+        // ==========================================================
+        
+                int dag = 2; // Endre verdien for å teste andre dager.
+
+    //----------------------------------------------------------------------------------\\
 
         // Bruker if-else for å avgjøre dagtype og skrive ut riktig melding.
         if (dag >= 1 && dag <= 5) // '&&' betyr "og": begge betingelser må være sanne.
