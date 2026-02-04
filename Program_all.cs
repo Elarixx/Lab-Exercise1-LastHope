@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace LastHope 
+namespace Lab_Exercise2 
 {
     internal class Program
     {

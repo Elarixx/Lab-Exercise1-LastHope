@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="Lab Exercises.csproj" />
+  <Project Path="../Exercise3/Exercise3.csproj" Id="b5341e5e-ff47-4b55-b6fb-cafc8f7a90d0" />
+  <Project Path="../Lab Exercise4/Lab Exercise4 -- Klasser, egenskaper og tilgangsstyring.csproj" Id="d3787cd1-8e85-48d6-98d2-2d9a1ab8eb39" />
+  <Project Path="Lab Exercise2.csproj" />
 </Solution>

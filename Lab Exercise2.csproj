@@ -11,8 +11,4 @@
     <None Include=".github\copilot-instructions.md" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Lab Exercise3\" />
-  </ItemGroup>
-
 </Project>
